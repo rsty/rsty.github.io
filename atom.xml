@@ -56,9 +56,16 @@
     <link href="http://blog.dtops.cn/2018/02/25/Python%E5%AE%89%E8%A3%85%E5%BC%82%E5%B8%B8/"/>
     <id>http://blog.dtops.cn/2018/02/25/Python安装异常/</id>
     <published>2018-02-25T14:53:38.000Z</published>
-    <updated>2018-02-25T15:16:37.167Z</updated>
+    <updated>2018-03-07T02:42:41.035Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="错误信息"><a href="#错误信息" class="headerlink" title="错误信息"></a>错误信息</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">checking whether we are cross compiling... configure: error: in `/tmp/pip-build-aftX3Q/pycrypto&apos;:</span><br><span class="line">    configure: error: cannot run C compiled programs.</span><br><span class="line">    If you meant to cross compile, use `--host&apos;.</span><br></pre></td></tr></table></figure><p>1、检查gcc 存在<br>2、怀疑是tmp设置了noexec<br>3、问题比较明显了，是由于临时文件在/tmp目录无法执行导致的错误<br>4、解决办法：<br>pip安装的时候指定临时目录,指定到安装的家目录</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[avatar@index1 ~]$ TMPDIR=~/ pip install fabric</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;错误信息&quot;&gt;&lt;a href=&quot;#错误信息&quot; class=&quot;headerlink&quot; title=&quot;错误信息&quot;&gt;&lt;/a&gt;错误信息&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pr
+      
     
     </summary>
     
