@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.dtops.cn/"/>
-  <updated>2018-03-16T06:29:19.245Z</updated>
+  <updated>2018-03-16T06:34:15.976Z</updated>
   <id>http://blog.dtops.cn/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://blog.dtops.cn/2018/03/16/puppet%E6%89%A7%E8%A1%8C%E6%8F%90%E7%A4%BAError-Could-not-get-latest-version/"/>
     <id>http://blog.dtops.cn/2018/03/16/puppet执行提示Error-Could-not-get-latest-version/</id>
     <published>2018-03-16T06:27:34.000Z</published>
-    <updated>2018-03-16T06:29:19.245Z</updated>
+    <updated>2018-03-16T06:34:15.976Z</updated>
     
-    <content type="html"><![CDATA[<p>‘’’<br>Error: Could not get latest version</p><p>Error: Could not get latest version: Execution of ‘/usr/bin/python /usr/lib/ruby/site_ruby/1.8/puppet/provider/package/yumhelper.py’ returned 1: <type 'exceptions.attributeerror'=""><br>Error: /Stage[main]/Mysql::Install/Package[hdf-mysql]/ensure: change from 5.6.20-2.el6 to latest failed: Could not get latest version: Execution of ‘/usr/bin/python /usr/lib/ruby/site_ruby/1.8/puppet/provider/package/yumhelper.py’ returned 1: <type 'exceptions.attributeerror'=""></type></type></p><p>官方文档：<br><a href="https://projects.puppetlabs.com/issues/15644" target="_blank" rel="noopener">https://projects.puppetlabs.com/issues/15644</a><br><a href="https://tickets.puppetlabs.com/browse/PUP-1362" target="_blank" rel="noopener">https://tickets.puppetlabs.com/browse/PUP-1362</a></p><p>是由于升级python版本导致，修改系统默认python之后正常<br>yumhelper.py’ returned 1: &lt;type ‘exceptions.AttributeError’&gt;<br>‘’’</p>]]></content>
+    <content type="html"><![CDATA[<p>Error: Could not get latest version</p><p>Error: Could not get latest version: Execution of ‘/usr/bin/python /usr/lib/ruby/site_ruby/1.8/puppet/provider/package/yumhelper.py’ returned 1: <type 'exceptions.attributeerror'=""><br>Error: /Stage[main]/Mysql::Install/Package[hdf-mysql]/ensure: change from 5.6.20-2.el6 to latest failed: Could not get latest version: Execution of ‘/usr/bin/python /usr/lib/ruby/site_ruby/1.8/puppet/provider/package/yumhelper.py’ returned 1: <type 'exceptions.attributeerror'=""></type></type></p><p>官方文档：<br><a href="https://projects.puppetlabs.com/issues/15644" target="_blank" rel="noopener">https://projects.puppetlabs.com/issues/15644</a><br><a href="https://tickets.puppetlabs.com/browse/PUP-1362" target="_blank" rel="noopener">https://tickets.puppetlabs.com/browse/PUP-1362</a></p><p>是由于升级python版本导致，修改系统默认python之后正常<br>yumhelper.py’ returned 1: &lt;type ‘exceptions.AttributeError’&gt;</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;‘’’&lt;br&gt;Error: Could not get latest version&lt;/p&gt;
-&lt;p&gt;Error: Could not get latest version: Execution of ‘/usr/bin/python /usr/lib/ruby/site_r
+        &lt;p&gt;Error: Could not get latest version&lt;/p&gt;
+&lt;p&gt;Error: Could not get latest version: Execution of ‘/usr/bin/python /usr/lib/ruby/site_ruby/1.8
       
     
     </summary>
