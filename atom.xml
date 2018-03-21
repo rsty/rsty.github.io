@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.dtops.cn/"/>
-  <updated>2018-03-16T06:34:15.976Z</updated>
+  <updated>2018-03-21T08:18:05.567Z</updated>
   <id>http://blog.dtops.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker-Error-starting-daemon</title>
+    <link href="http://blog.dtops.cn/2018/03/21/docker-Error-starting-daemon/"/>
+    <id>http://blog.dtops.cn/2018/03/21/docker-Error-starting-daemon/</id>
+    <published>2018-03-21T08:14:17.000Z</published>
+    <updated>2018-03-21T08:18:05.567Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="重启docker服务，居然提示异常无法重启，错误信息如下"><a href="#重启docker服务，居然提示异常无法重启，错误信息如下" class="headerlink" title="重启docker服务，居然提示异常无法重启，错误信息如下"></a>重启docker服务，居然提示异常无法重启，错误信息如下</h2><h3 id="如下是检查过程"><a href="#如下是检查过程" class="headerlink" title="如下是检查过程"></a>如下是检查过程</h3><p>1、service status docker.service 提示了如下错误信息<br>‘’’<br>“Error starting daemon: pid file found, ensure docker is not running or delete …n/docker.pid<br>‘’’<br>2、ps -aux|grep docker<br>检查服务居然是存在的<br>3、停止再启动试试<br>停止只有无法启动。<br>4、找到pid文件<br>mv重命名下，再次启动，正常运行</p><p>ps:具体的原因还未找到。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;重启docker服务，居然提示异常无法重启，错误信息如下&quot;&gt;&lt;a href=&quot;#重启docker服务，居然提示异常无法重启，错误信息如下&quot; class=&quot;headerlink&quot; title=&quot;重启docker服务，居然提示异常无法重启，错误信息如下&quot;&gt;&lt;/a&gt;重启
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://blog.dtops.cn/tags/docker/"/>
+    
+  </entry>
   
   <entry>
     <title>puppet执行提示Error Could not get latest version</title>
