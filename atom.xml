@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.dtops.cn/"/>
-  <updated>2018-03-21T08:20:16.792Z</updated>
+  <updated>2018-03-21T08:21:11.399Z</updated>
   <id>http://blog.dtops.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://blog.dtops.cn/2018/03/21/docker-Error-starting-daemon/"/>
     <id>http://blog.dtops.cn/2018/03/21/docker-Error-starting-daemon/</id>
     <published>2018-03-21T08:14:17.000Z</published>
-    <updated>2018-03-21T08:20:16.792Z</updated>
+    <updated>2018-03-21T08:21:11.399Z</updated>
     
-    <content type="html"><![CDATA[<p>重启docker服务，居然提示异常无法重启，错误信息如下<br>1、service status docker.service 提示了如下错误信息<br>Error starting daemon: pid file found, ensure docker is not running or delete …n/docker.pid<br>2、ps -aux|grep docker<br>检查服务居然是存在的<br>3、停止再启动试试<br>停止只有无法启动。<br>4、找到pid文件<br>mv重命名下，再次启动，正常运行</p><p>ps:具体的原因还未找到。</p>]]></content>
+    <content type="html"><![CDATA[<p>重启docker服务，居然提示异常无法重启，错误信息如下<br>1、service status docker.service 提示了如下错误信息<br>Error starting daemon: pid file found, ensure docker is not running or delete …n/docker.pid<br>2、ps -aux|grep docker<br>检查服务居然是存在的<br>3、停止再启动试试<br>停止只有无法启动。<br>4、找到pid文件<br>mv重命名下，再次启动，可以正常启</p><p>ps:具体的原因还未找到。</p>]]></content>
     
     <summary type="html">
     
