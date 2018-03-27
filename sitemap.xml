@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.dtops.cn/2018/03/27/mac-ansible-ansible-cfg/</loc>
+    
+    <lastmod>2018-03-27T09:16:35.803Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.dtops.cn/2018/03/21/docker-Error-starting-daemon/</loc>
     
     <lastmod>2018-03-21T08:21:11.399Z</lastmod>
