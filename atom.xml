@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.dtops.cn/"/>
-  <updated>2019-02-01T08:44:11.522Z</updated>
+  <updated>2018-03-27T09:16:35.803Z</updated>
   <id>http://blog.dtops.cn/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://blog.dtops.cn/2019/02/01/2019PLAN/"/>
-    <id>http://blog.dtops.cn/2019/02/01/2019PLAN/</id>
-    <published>2019-02-01T08:44:11.522Z</published>
-    <updated>2019-02-01T08:44:11.522Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="写在2019年初的光华路SOLO"><a href="#写在2019年初的光华路SOLO" class="headerlink" title="写在2019年初的光华路SOLO"></a>写在2019年初的光华路SOLO</h2><hr><h4 id="2018的这一年"><a href="#2018的这一年" class="headerlink" title="2018的这一年"></a>2018的这一年</h4><ul><li>技术，做了很多尝试，都不够深入浮于表面，没有进度或者说是退步，有一些吃老本了</li><li>管理，人是最复杂的动物，用人之长，分配工作的人心要大，能容人，做好自己的七八分就可以放手了。</li><li>项目，不够严谨，或者说性格上不会拒绝，不过好很多，执行的不好，多谋少断，要改</li><li>学习，都没有坚持下来，2018这一年事情太多，精神不能很好的集中</li></ul><hr><h4 id="2019啊"><a href="#2019啊" class="headerlink" title="2019啊"></a>2019啊</h4><h3 id="先里几个flag吧，年末再回过头来看"><a href="#先里几个flag吧，年末再回过头来看" class="headerlink" title="先里几个flag吧，年末再回过头来看"></a>先里几个flag吧，年末再回过头来看</h3><ul><li>锻炼</li><li>看书</li><li>专注</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;写在2019年初的光华路SOLO&quot;&gt;&lt;a href=&quot;#写在2019年初的光华路SOLO&quot; class=&quot;headerlink&quot; title=&quot;写在2019年初的光华路SOLO&quot;&gt;&lt;/a&gt;写在2019年初的光华路SOLO&lt;/h2&gt;&lt;hr&gt;
-&lt;h4 id=&quot;2018
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>mac-ansible-ansible.cfg</title>
